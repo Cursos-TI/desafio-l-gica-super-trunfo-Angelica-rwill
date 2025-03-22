@@ -69,28 +69,25 @@ int main() {
     printf("Comparacao Populacao\n");
     if (Populacao1 > Populacao2) {
         printf("Cidade 1 tem maior Populacao.\n");
-    }
-    if (Populacao1 < Populacao2) {
-    printf("Cidade 2 tem maior Populacao.\n");
-    }
+    } else if (Populacao1 < Populacao2) {
+        printf("Cidade 2 tem maior Populacao.\n");
+    } 
 
     // Comparação PIB
     printf("Comparacao PIB\n");
     if (PIB1 > PIB2) {
         printf("Cidade 1 tem maior PIB.\n");
-    }
-    if (PIB1 < PIB2) {
+    } else if (PIB1 < PIB2) {
         printf("Cidade 2 tem maior PIB.\n");
-    }
+    } 
 
     // Comparação Pontos Turísticos
     printf("Comparacao Pontos Turisticos\n");
     if (PontosTuristicos1 > PontosTuristicos2) {
         printf("Cidade 1 tem maior numero de PontosTuristicos.\n");
-    }
-    if (PontosTuristicos1 < PontosTuristicos2) {
+    } else if (PontosTuristicos1 < PontosTuristicos2) {
         printf("Cidade 2 tem maior numero de PontosTuristicos.\n");
-    }
+    } 
 
     return 0;
 }
